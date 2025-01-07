@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://kapustaprojekt.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://kapustaprojekt.atlassian.net/browse/KP-1">Testowanie głównej strony</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://kapustaprojekt.atlassian.net/browse/KP-1">KP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://kapustaprojekt.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [KP-46]&nbsp;<a href="https://kapustaprojekt.atlassian.net/browse/KP-46">Test Plan dla Projekt Kapusta</a>
+            <span class="subText">
+               Utworzono: 25/lis/24                   &nbsp;Zaktualizowano: 06/sty/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do sprawdzenia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://kapustaprojekt.atlassian.net/secure/BrowseProject.jspa?id=10001">Kapusta projekt</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://kapustaprojekt.atlassian.net/browse/KP-1">Testowanie głównej strony</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Plan
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63e2c3f6491b20ef64bc1171"
+                id="word_reporter_63e2c3f6491b20ef64bc1171"
+                href="https://kapustaprojekt.atlassian.net/secure/ViewProfile.jspa?accountId=63e2c3f6491b20ef64bc1171">
+                    Wojciech Kasprzyk
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="63e2c3f6491b20ef64bc1171"
+                id="word_assignee_63e2c3f6491b20ef64bc1171"
+                href="https://kapustaprojekt.atlassian.net/secure/ViewProfile.jspa?accountId=63e2c3f6491b20ef64bc1171">
+                    Wojciech Kasprzyk
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10045-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Web                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10045-value" class="value" bgcolor="#ffffff" width="80%">      0|i0009z:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10045-value" class="value" bgcolor="#ffffff" width="80%">Sprint Testy Strony Głównej</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h1><a name="Plantest%C3%B3wdlasklepuinternetowego"></a><b>Plan testów dla sklepu internetowego</b></h1>
+
+<p><ins>Spis treści:</ins></p>
+
+<ol>
+	<li>Wstęp</li>
+	<li>Zakres testów</li>
+	<li>Przedmiot testów</li>
+	<li>Kryteria zaliczenia</li>
+	<li>Kryteria niezaliczenia</li>
+	<li>Kryteria wejścia</li>
+	<li>Kryteria wyjścia</li>
+	<li>Lista funkcjonalności do przetestowania</li>
+	<li>Środowisko testowe</li>
+</ol>
+
+
+<p>10.         Kategorie błędów</p>
+
+<p>11.         Miejsce testów</p>
+
+<p>12.         Harmonogram testów</p>
+
+<p>13.         Raporty z testów</p>
+
+<p>14.         Lista narzędzi</p>
+
+<p>15.         Zarządzanie incydentami</p>
+
+<p>16.         Role i odpowiedzialność</p>
+
+<h1><a name="Wst%C4%99p"></a>Wstęp</h1>
+
+<p>Celem tworzonego planu testów jest szczegółowe przetestowanie funkcjonalności strony internetowej: <a href="https://kapusta-qa.netlify.app/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://kapusta-qa.netlify.app/</a>  w oparciu o dostarczone wymagania.</p>
+
+<p>Wszystkie napotkane defekty zostaną poprawione i przekazane testerom do testów potwierdzających.</p>
+
+<h1><a name="Zakrestest%C3%B3w"></a>Zakres testów</h1>
+
+<p><ins><b>Poziomy testów objęte w planie testów to:</b></ins></p>
+
+<p>●     <b>Testowanie modułowe</b></p>
+
+<p>●     <b>Testowanie integracyjne</b></p>
+
+<p> </p>
+
+<p><b>Typy testów ujęte w planie testów:</b></p>
+
+<p>●     <ins>Testy funkcjonalne</ins> - oprogramowanie zostanie zweryfikowane pod kątem dostarczonych specyfikacji</p>
+
+<p>●     <ins>Testy eksploracyjne</ins> – oprogramowanie zostanie sprawdzone pod kątem funkcjonalności zgodnie z podanymi wymagania w oparciu o doświadczenie oraz przeczucia testerów</p>
+
+<p>●     <ins>Testy wydajnościowe</ins> – oprogramowanie zostanie przetestowane pod kątem wydajności: czasu reakcji, stabilności (znajdowanie „wąskich gardeł”), testy przeciążeniowe (stress testy), obciążenia, skalowalności</p>
+
+<p> </p>
+
+<p><b>Typy testów wykluczone z planu testów:</b></p>
+
+<p>●     <ins>Testy bezpieczeństwa</ins> - brak kompetencji osób w zespole związanych z dziedziną pentestingu.</p>
+
+<p>●     <ins>Testy akceptacyjne</ins> – brak liczby testerów do przeprowadzenia testów</p>
+
+<h1><a name="Przedmiottest%C3%B3w"></a>Przedmiot testów</h1>
+
+<p>Przedmiotem testów jest strona internetowa dostępna pod adresem: <a href="https://kapusta-qa.netlify.app/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://kapusta-qa.netlify.app/</a>  wraz z jej wszystkimi funkcjonalnościami podanymi w specyfikacji funkcjonalnej.</p>
+
+<h1><a name="Kryteriazaliczenia"></a>Kryteria zaliczenia</h1>
+
+<ol>
+	<li><ins>Testy wydajnościowe</ins></li>
+</ol>
+
+
+<p>●     Czas odpowiedzi serwera nie może być dłuższy niż 500 ms</p>
+
+<p>●     Oprogramowanie musi wytrzymać obciążenie 1000 użytkowników w tej samej chwili</p>
+
+<p> </p>
+
+<ol>
+	<li><ins>Testy funkcjonalne i eksploracyjne</ins></li>
+</ol>
+
+
+<p>●     Kryteria akceptacyjne są zgodne z obecną implementacją strony internetowej</p>
+
+<h1><a name="Kryterianiezaliczenia"></a>Kryteria niezaliczenia</h1>
+
+<ol>
+	<li><ins>Testy wydajnościowe</ins></li>
+</ol>
+
+
+<p>●     Czas odpowiedzi serwera jest dłuższy niż 500 ms</p>
+
+<p> </p>
+
+<ol>
+	<li><ins>Testy funkcjonalnych i eksploracyjnych</ins></li>
+</ol>
+
+
+<p>●     Zaimplementowane funkcjonalności nie są zgodne z wymaganiami</p>
+
+<h1><a name="Kryteriawej%C5%9Bcia"></a>Kryteria wejścia</h1>
+
+<p>●     Uruchomione środowisko testowe</p>
+
+<p>●     Środowisko testowe musi być zbliżone do środowiska produkcyjnego</p>
+
+<p>●     Dostęp do urządzenia z systemem Android i IOS</p>
+
+<h1><a name="Kryteriawyj%C5%9Bcia"></a>Kryteria wyjścia</h1>
+
+<p>●     Wykonane wszystkie przypadki testowe</p>
+
+<p>●     Wszystkie typy i poziomy testów uwzględnione w planie testów zostały zrealizowane</p>
+
+<p>●     Poprawione zostały wszystkie defekty</p>
+
+<h1><a name="Listafunkcjonalno%C5%9Bcidoprzetestowania"></a>Lista funkcjonalności do przetestowania</h1>
+
+<p>●     Rejestracja oraz logowanie do systemu</p>
+
+<p>●     Użytkownik niezalogowany do systemu</p>
+
+<p>●     Użytkownik zalogowany do systemu</p>
+
+<p>●     Ogólny widok oraz poprawność funkcjonowania strony internetowej zgodnie ze specyfikacją wymagań</p>
+
+<p>●     Wyszukiwarka produktów/ Wybieranie kategorii </p>
+
+<p>●     Zmiana daty oraz kwoty transakcji</p>
+
+<p>●     Funkcjonalność widoku podsumowania transakcji oraz kategorii</p>
+
+<p>●     Tworzenie produktu/ Dodawanie produktu/ Usuwanie produktu</p>
+
+<p>●     Tworzenie raportów </p>
+
+<h1><a name="%C5%9Arodowiskotestowe"></a>Środowisko testowe</h1>
+
+<p>Testy strony internetowej będą przeprowadzane na dedykowanym serwerze:</p>
+
+<p><a href="https://kapusta-qa.netlify.app/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://kapusta-qa.netlify.app/</a> .</p>
+
+<p>Środowisko testowe jest zbliżone parametrami do środowiska produkcyjnego.</p>
+
+<p><ins>Specyfikacja:</ins></p>
+
+<p>Procesor: 2 GHz RAM: 4GB Dysk: 240 GB</p>
+
+<p>System: Windows 11</p>
+
+<p> </p>
+
+<p>Test będą przeprowadzane przy użyciu poniższych urządzeń:</p>
+
+<ol>
+	<li>Komputer PC</li>
+</ol>
+
+
+<p>●     Procesor Intel Core i5 2,5 GHz</p>
+
+<p>●     Ram: 8 GB</p>
+
+<p> </p>
+
+<ol>
+	<li>Urządzenie mobilne z system Android</li>
+</ol>
+
+
+<p>●     Procesor: Android 14 wersja ONE UI</p>
+
+<p>●     Pamięć Ram: 128GB</p>
+
+<p>●     Model: Samsung S22</p>
+
+<h1><a name="Kategorieb%C5%82%C4%99d%C3%B3w"></a>Kategorie błędów</h1>
+
+<p>Wyróżniamy różne priorytety w naszym planie testów:</p>
+
+<p>●     Awaria</p>
+
+<p>●     Błąd blokujący</p>
+
+<p>●     Błąd poważny</p>
+
+<p>●     Błąd średni</p>
+
+<p>●     Błąd trywialny</p>
+
+<h1><a name="Miejscetest%C3%B3w"></a>Miejsce testów</h1>
+
+<p>Testy będą przeprowadzane w siedzibie firmy wytwarzającej oprogramowanie przez testera.</p>
+
+<h1><a name="Harmonogramtest%C3%B3w"></a>Harmonogram testów</h1>
+
+<ol>
+	<li>Testowanie statyczne</li>
+</ol>
+
+
+<p>●     Weryfikacja przygotowanych dokumentacji</p>
+
+<p>●     Weryfikacja historyjek użytkownika Czas: 10h</p>
+
+
+
+<ol>
+	<li>Testy funkcjonalne</li>
+</ol>
+
+
+<p>●     Weryfikacja zaimplementowanych funkcjonalności zgodnie z przygotowanymi założeniami</p>
+
+<p>●     Raportowanie defektów</p>
+
+<p>●     Wykonanie przypadków testowych Czas: 30h</p>
+
+
+
+<ol>
+	<li>Testy wydajnościowe</li>
+</ol>
+
+
+<p>●     Weryfikacja czasu odpowiedzi serwera</p>
+
+<p>●     Weryfikacja obciążenia serwera użytkownikami Czas: 14h</p>
+
+<h1><a name="Raportyztest%C3%B3w"></a>Raporty z testów</h1>
+
+<p>●     Raporty o wykrytych defektach</p>
+
+<p>●     Zaprojektowane przypadki testowe</p>
+
+<p>●     Metryki z testów wydajnościowych</p>
+
+<h1><a name="Listanarz%C4%99dzi"></a>Lista narzędzi</h1>
+
+<ol>
+	<li>Narzędzia do raportowania defektów</li>
+</ol>
+
+
+<p>●     Jira</p>
+
+<ol>
+	<li>Narzędzia do tworzenia przypadków testowych</li>
+</ol>
+
+
+<p>●     TestLink</p>
+
+<p>●     XRay</p>
+
+<ol>
+	<li>Narzędzia do testów wydajnościowych</li>
+</ol>
+
+
+<p>●     Jmeter</p>
+
+<ol>
+	<li>Narzędzia do tworzenia zrzutów ekranu i filmików</li>
+</ol>
+
+
+<p>●     PicPick</p>
+
+<p>●     ShareX</p>
+
+<h1><a name="Zarz%C4%85dzanieincydentami"></a>Zarządzanie incydentami</h1>
+
+<p>Po wykryciu defektu taki defekt zostanie zgłoszony do systemu zarządzania defektami jakim jest Jira. Defekt będzie posiadał priorytet wskazany w planie testów oraz osobę, która będzie zajmowała się poprawą błędu.</p>
+
+<p>Gdy programista poprawi taki błąd to zostanie on następnie przekazany testerowi do przeprowadzenia testów potwierdzających.</p>
+
+<p>W momencie poprawnego naprawienia defektu, zgłoszenie zostanie zamknięte i przesunięte do kolumny na “gotowe”.</p>
+
+<p>W przypadku nieprawidłowego naprawiania defektu, zgłoszenie na nowo zostanie przekazane do programisty.</p>
+
+<h1><a name="Roleiodpowiedzialno%C5%9B%C4%87"></a>Role i odpowiedzialność</h1>
+
+<p><ins>Kierownik testów</ins> - nadzorowanie i organizowanie pracy całego zespołu testowego.</p>
+
+<p><ins>Analityk testów</ins> - analizowanie podstawy testów. Przygotowywanie testaliów potrzebnych do testów. Wspieranie kierownika testów.</p>
+
+<p><ins>Tester</ins> - Realizuje zadania wyznaczone przez kierownika testów, wykonuje testy i raportuje defekty.</p>
+
+<p><ins>Administrator techniczny systemu</ins> - przygotowuje środowisko testowe i je nadzoruje podczas procesu testowego.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Mon Jan 06 15:22:00 GMT 2025) przez Wojciech Kasprzyk z użyciem systemu Jira 1001.0.0-SNAPSHOT#100277-rev:bd1f1b125309c322d2634a340a5a8641851cfee5.
+
+</body>
+</html>
